@@ -1,0 +1,243 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4"
+Relation:     reviews
+Instances:    50000
+Attributes:   95
+              good
+              great
+              well
+              amazing
+              appreciate
+              awesome
+              beautifully
+              beauty
+              best
+              clever
+              cool
+              decent
+              enjoyed
+              entertaining
+              excellent
+              fantastic
+              favorite
+              fine
+              funny
+              genius
+              greatest
+              happy
+              hilarious
+              highly
+              impressive
+              incredible
+              intelligent
+              interesting
+              liked
+              loved
+              masterpiece
+              memorable
+              nice
+              outstanding
+              perfectly
+              powerful
+              realistic
+              recommend
+              solid
+              strong
+              stunning
+              superb
+              talented
+              terrific
+              unique
+              wonderful
+              worked
+              better
+              ok
+              original
+              bad
+              boring
+              creepy
+              disappointing
+              falls
+              hate
+              lack
+              poor
+              problem
+              wrong
+              unfortunately
+              forced
+              garbage
+              horrible
+              lame
+              mess
+              painful
+              pathetic
+              pointless
+              predictable
+              ridiculous
+              shame
+              silly
+              stupid
+              terrible
+              trash
+              waste
+              weak
+              weird
+              worst
+              short
+              sad
+              old
+              low
+              dull
+              cheap
+              least
+              sorry
+              not
+              supposed
+              instead
+              annoying
+              dumb
+              avoid
+              rotulo
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: pos, neg
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.512  * (normalized) good
+ +      -4.8386 * (normalized) great
+ +      -3.5972 * (normalized) well
+ +      -5.3219 * (normalized) amazing
+ +      -1.2387 * (normalized) appreciate
+ +      -2.599  * (normalized) awesome
+ +      -2.7192 * (normalized) beautifully
+ +      -3.46   * (normalized) beauty
+ +      -3.5946 * (normalized) best
+ +      -0.2662 * (normalized) clever
+ +      -0.6653 * (normalized) cool
+ +       1.9862 * (normalized) decent
+ +      -2.2214 * (normalized) enjoyed
+ +      -3.9222 * (normalized) entertaining
+ +      -3.805  * (normalized) excellent
+ +      -3.8644 * (normalized) fantastic
+ +      -4.8098 * (normalized) favorite
+ +      -1.027  * (normalized) fine
+ +      -0.9726 * (normalized) funny
+ +      -2.0121 * (normalized) genius
+ +      -5.3702 * (normalized) greatest
+ +      -1.8469 * (normalized) happy
+ +      -2.9366 * (normalized) hilarious
+ +      -1.1769 * (normalized) highly
+ +      -0.8534 * (normalized) impressive
+ +      -0.8431 * (normalized) incredible
+ +      -0.8947 * (normalized) intelligent
+ +       0.9613 * (normalized) interesting
+ +       0.65   * (normalized) liked
+ +      -5.7124 * (normalized) loved
+ +      -2.8335 * (normalized) masterpiece
+ +      -1.5554 * (normalized) memorable
+ +      -1.3526 * (normalized) nice
+ +      -2.4521 * (normalized) outstanding
+ +      -4.5933 * (normalized) perfectly
+ +      -3.0657 * (normalized) powerful
+ +      -1.174  * (normalized) realistic
+ +      -0.933  * (normalized) recommend
+ +      -2.4762 * (normalized) solid
+ +      -1.9408 * (normalized) strong
+ +      -1.9103 * (normalized) stunning
+ +      -2.3113 * (normalized) superb
+ +       0.5156 * (normalized) talented
+ +      -2.6086 * (normalized) terrific
+ +      -3.5134 * (normalized) unique
+ +      -4.6279 * (normalized) wonderful
+ +      -0.0446 * (normalized) worked
+ +       1.5365 * (normalized) better
+ +       0.4136 * (normalized) ok
+ +       2.6597 * (normalized) original
+ +       7.7167 * (normalized) bad
+ +       6.1286 * (normalized) boring
+ +      -0.7996 * (normalized) creepy
+ +       3.5621 * (normalized) disappointing
+ +       0.8143 * (normalized) falls
+ +       0.2057 * (normalized) hate
+ +       1.1224 * (normalized) lack
+ +       4.2831 * (normalized) poor
+ +       1.3471 * (normalized) problem
+ +       1.9147 * (normalized) wrong
+ +       1.76   * (normalized) unfortunately
+ +      -0.165  * (normalized) forced
+ +       4.0676 * (normalized) garbage
+ +       6.0559 * (normalized) horrible
+ +       5.0051 * (normalized) lame
+ +       3.7065 * (normalized) mess
+ +       2.472  * (normalized) painful
+ +       2.8055 * (normalized) pathetic
+ +       4.1378 * (normalized) pointless
+ +       2.2    * (normalized) predictable
+ +       3.2525 * (normalized) ridiculous
+ +       1.375  * (normalized) shame
+ +       2.2086 * (normalized) silly
+ +       5.7376 * (normalized) stupid
+ +       5.6237 * (normalized) terrible
+ +       2.2541 * (normalized) trash
+ +       6.5985 * (normalized) waste
+ +       2.8572 * (normalized) weak
+ +       0.0102 * (normalized) weird
+ +      11.6107 * (normalized) worst
+ +      -1.5454 * (normalized) short
+ +       0.4736 * (normalized) sad
+ +      -0.3212 * (normalized) old
+ +       1.2532 * (normalized) low
+ +       7.752  * (normalized) dull
+ +       2.506  * (normalized) cheap
+ +       2.0475 * (normalized) least
+ +       3.7702 * (normalized) sorry
+ +       0.6594 * (normalized) not
+ +       3.2618 * (normalized) supposed
+ +       3.0612 * (normalized) instead
+ +       4.4178 * (normalized) annoying
+ +       4.4323 * (normalized) dumb
+ +       1.9002 * (normalized) avoid
+ -       0.2227
+
+Number of kernel evaluations: 77971581 (38.937% cached)
+
+
+
+Time taken to build model: 28.14 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       40297               80.594  %
+Incorrectly Classified Instances      9703               19.406  %
+Kappa statistic                          0.6118
+Mean absolute error                      0.1941
+Root mean squared error                  0.4405
+Relative absolute error                 38.812  %
+Root relative squared error             88.1045 %
+Total Number of Instances            50000     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,851    0,239    0,781      0,851    0,814      0,614    0,806     0,739     pos
+                 0,761    0,149    0,836      0,761    0,797      0,614    0,806     0,756     neg
+Weighted Avg.    0,806    0,194    0,808      0,806    0,806      0,614    0,806     0,747     
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 21276  3724 |     a = pos
+  5979 19021 |     b = neg
+

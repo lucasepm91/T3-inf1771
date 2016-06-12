@@ -1,0 +1,134 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LibSVM -S 0 -K 2 -D 3 -G 0.0 -R 0.0 -N 0.5 -M 40.0 -C 1.0 -E 0.001 -P 0.1 -model "C:\\Program Files\\Weka-3-8" -seed 1
+Relation:     reviews
+Instances:    50000
+Attributes:   95
+              good
+              great
+              well
+              amazing
+              appreciate
+              awesome
+              beautifully
+              beauty
+              best
+              clever
+              cool
+              decent
+              enjoyed
+              entertaining
+              excellent
+              fantastic
+              favorite
+              fine
+              funny
+              genius
+              greatest
+              happy
+              hilarious
+              highly
+              impressive
+              incredible
+              intelligent
+              interesting
+              liked
+              loved
+              masterpiece
+              memorable
+              nice
+              outstanding
+              perfectly
+              powerful
+              realistic
+              recommend
+              solid
+              strong
+              stunning
+              superb
+              talented
+              terrific
+              unique
+              wonderful
+              worked
+              better
+              ok
+              original
+              bad
+              boring
+              creepy
+              disappointing
+              falls
+              hate
+              lack
+              poor
+              problem
+              wrong
+              unfortunately
+              forced
+              garbage
+              horrible
+              lame
+              mess
+              painful
+              pathetic
+              pointless
+              predictable
+              ridiculous
+              shame
+              silly
+              stupid
+              terrible
+              trash
+              waste
+              weak
+              weird
+              worst
+              short
+              sad
+              old
+              low
+              dull
+              cheap
+              least
+              sorry
+              not
+              supposed
+              instead
+              annoying
+              dumb
+              avoid
+              rotulo
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+LibSVM wrapper, original code by Yasser EL-Manzalawy (= WLSVM)
+
+Time taken to build model: 178.98 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       40401               80.802  %
+Incorrectly Classified Instances      9599               19.198  %
+Kappa statistic                          0.616 
+Mean absolute error                      0.192 
+Root mean squared error                  0.4382
+Relative absolute error                 38.396  %
+Root relative squared error             87.631  %
+Total Number of Instances            50000     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,847    0,231    0,786      0,847    0,815      0,618    0,808     0,742     pos
+                 0,769    0,153    0,834      0,769    0,800      0,618    0,808     0,757     neg
+Weighted Avg.    0,808    0,192    0,810      0,808    0,808      0,618    0,808     0,749     
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 21166  3834 |     a = pos
+  5765 19235 |     b = neg
+

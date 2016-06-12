@@ -1,0 +1,136 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.lazy.IBk -K 27 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     reviews
+Instances:    50000
+Attributes:   95
+              good
+              great
+              well
+              amazing
+              appreciate
+              awesome
+              beautifully
+              beauty
+              best
+              clever
+              cool
+              decent
+              enjoyed
+              entertaining
+              excellent
+              fantastic
+              favorite
+              fine
+              funny
+              genius
+              greatest
+              happy
+              hilarious
+              highly
+              impressive
+              incredible
+              intelligent
+              interesting
+              liked
+              loved
+              masterpiece
+              memorable
+              nice
+              outstanding
+              perfectly
+              powerful
+              realistic
+              recommend
+              solid
+              strong
+              stunning
+              superb
+              talented
+              terrific
+              unique
+              wonderful
+              worked
+              better
+              ok
+              original
+              bad
+              boring
+              creepy
+              disappointing
+              falls
+              hate
+              lack
+              poor
+              problem
+              wrong
+              unfortunately
+              forced
+              garbage
+              horrible
+              lame
+              mess
+              painful
+              pathetic
+              pointless
+              predictable
+              ridiculous
+              shame
+              silly
+              stupid
+              terrible
+              trash
+              waste
+              weak
+              weird
+              worst
+              short
+              sad
+              old
+              low
+              dull
+              cheap
+              least
+              sorry
+              not
+              supposed
+              instead
+              annoying
+              dumb
+              avoid
+              rotulo
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 27 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       38147               76.294  %
+Incorrectly Classified Instances     11853               23.706  %
+Kappa statistic                          0.5259
+Mean absolute error                      0.3306
+Root mean squared error                  0.4023
+Relative absolute error                 66.1134 %
+Root relative squared error             80.4574 %
+Total Number of Instances            50000     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,814    0,289    0,738      0,814    0,775      0,529    0,844     0,831     pos
+                 0,711    0,186    0,793      0,711    0,750      0,529    0,844     0,841     neg
+Weighted Avg.    0,763    0,237    0,766      0,763    0,762      0,529    0,844     0,836     
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 20360  4640 |     a = pos
+  7213 17787 |     b = neg
+
