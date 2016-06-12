@@ -1,4 +1,6 @@
 # T3-inf1771
+Análise de sentimento
 
--Lucas Eduardo P. Martins
--Cleo C. Peixoto
+## Autores:
+* Lucas Eduardo P. Martins
+* Cleo C. Peixoto
